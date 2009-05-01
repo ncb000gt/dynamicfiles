@@ -1,0 +1,3 @@
+<prototypes>
+  <prototype name="DynamicFile" displayname="Dynamic File" addable="true" deleteable="true" editable="true" />
+</prototypes>

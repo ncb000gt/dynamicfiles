@@ -1,0 +1,18 @@
+Dynamic Files
+--------------
+
+This is a module for Axiom Stack applications that more or less need to be able to put content into objects that is dynamically managed, usually through the CMS. The content then needs to be pushed out in a request using the appropriate headers for the content.
+
+Static files are already covered in Jetty, but Dynamic files are not. Hence this module.
+
+
+Usage
+------
+
+To use this module just put the code in your modules directory.
+
+<axiom root>/modules
+
+Then, make sure to add the module to your list of modules in your app.properties file.
+
+If you are using the Axiom CMS (http://www.axiomcms.com/) the CMS parts are already created.
